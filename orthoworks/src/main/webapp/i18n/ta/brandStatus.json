@@ -1,0 +1,10 @@
+{
+  "orthoworksApp": {
+    "BrandStatus": {
+      "null": "",
+      "AVAILABLE": "AVAILABLE",
+      "RESTRICTED": "RESTRICTED",
+      "DISABLED": "DISABLED"
+    }
+  }
+}

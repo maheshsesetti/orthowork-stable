@@ -1,0 +1,26 @@
+{
+  "orthoworksApp": {
+    "data": {
+      "home": {
+        "title": "Data",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Data",
+        "createOrEditLabel": "Crear o editar Data",
+        "notFound": "Ningún Data encontrado"
+      },
+      "created": "Un nuevo Data ha sido creado con el identificador {{ param }}",
+      "updated": "Un Data ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Data ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Data {{ id }}?"
+      },
+      "detail": {
+        "title": "Data"
+      },
+      "id": "ID",
+      "name": "Name",
+      "file": "File",
+      "transaction": "Transaction"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "applications": ["orthoworks", "api"],
+  "changelogDate": "20220204012445",
+  "clientRootFolder": "api",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "feature",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "mandatory",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "api",
+  "name": "Feature",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "collection",
+      "otherEntityRelationshipName": "features",
+      "relationshipName": "collection",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

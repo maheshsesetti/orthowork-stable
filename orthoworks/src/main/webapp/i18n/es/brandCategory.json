@@ -1,0 +1,29 @@
+{
+  "orthoworksApp": {
+    "brandCategory": {
+      "home": {
+        "title": "Brand Categories",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Brand Category",
+        "createOrEditLabel": "Crear o editar Brand Category",
+        "notFound": "Ningún Brand Categories encontrado"
+      },
+      "created": "Un nuevo Brand Category ha sido creado con el identificador {{ param }}",
+      "updated": "Un Brand Category ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Brand Category ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Brand Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Brand Category"
+      },
+      "id": "ID",
+      "description": "Description",
+      "sortOrder": "Sort Order",
+      "dateAdded": "Date Added",
+      "dateModified": "Date Modified",
+      "parent": "Parent",
+      "brand": "Brand"
+    }
+  }
+}

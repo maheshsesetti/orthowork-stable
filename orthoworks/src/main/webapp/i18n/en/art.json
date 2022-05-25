@@ -1,0 +1,28 @@
+{
+  "orthoworksApp": {
+    "art": {
+      "home": {
+        "title": "Arts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Art",
+        "createOrEditLabel": "Create or edit a Art",
+        "notFound": "No Arts found"
+      },
+      "created": "A new Art is created with identifier {{ param }}",
+      "updated": "A Art is updated with identifier {{ param }}",
+      "deleted": "A Art is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Art {{ id }}?"
+      },
+      "detail": {
+        "title": "Art"
+      },
+      "id": "ID",
+      "name": "Name",
+      "handle": "Handle",
+      "assetType": "Asset Type",
+      "type": "Type",
+      "collection": "Collection"
+    }
+  }
+}

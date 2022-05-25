@@ -1,0 +1,28 @@
+{
+  "orthoworksApp": {
+    "art": {
+      "home": {
+        "title": "Arts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Art बनाएँ",
+        "createOrEditLabel": "Art बनाएँ या संपादित करें",
+        "notFound": "No Arts found"
+      },
+      "created": "एक नया Art [identifier: {{ param }}] तैयार है",
+      "updated": "एक Art [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Art [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Art [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Art"
+      },
+      "id": "ID",
+      "name": "Name",
+      "handle": "Handle",
+      "assetType": "Asset Type",
+      "type": "Type",
+      "collection": "Collection"
+    }
+  }
+}

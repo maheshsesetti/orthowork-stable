@@ -1,0 +1,74 @@
+{
+  "name": "Brand",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "keywords",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "rating",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "BrandStatus",
+      "fieldValues": "AVAILABLE,RESTRICTED,DISABLED"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required", "min"],
+      "fieldValidateRulesMin": "0"
+    },
+    {
+      "fieldName": "brandSize",
+      "fieldType": "Size",
+      "fieldValues": "S,M,L,XL,XXL",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "dateAdded",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateModified",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "brandCategory",
+      "otherEntityRelationshipName": "brand",
+      "relationshipName": "category",
+      "ownerSide": false
+    }
+  ],
+  "entityTableName": "brand",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["orthoworks", "common"],
+  "microserviceName": "common",
+  "clientRootFolder": "common",
+  "databaseType": "sql",
+  "changelogDate": "20220118110014"
+}

@@ -1,0 +1,51 @@
+{
+  "applications": ["orthoworks", "api"],
+  "changelogDate": "20220118105915",
+  "clientRootFolder": "api",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "art",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength"],
+      "fieldValidateRulesMinlength": "3"
+    },
+    {
+      "fieldName": "handle",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength"],
+      "fieldValidateRulesMinlength": "2"
+    },
+    {
+      "fieldName": "assetType",
+      "fieldType": "AssetType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "IMAGE (Image),VIDEO (Video),AUDIO (Audio)"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "Type",
+      "fieldValues": "PHYGITAL (pNFT Phygital Art),MINIATURE_COLLECTIBLE (Miniature Collectible ex: Ferrari),LIMITED_EDITION (Limited Edition ex: Prosche xxx)"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "api",
+  "name": "Art",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "collection",
+      "otherEntityRelationshipName": "art",
+      "ownerSide": true,
+      "relationshipName": "collection",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

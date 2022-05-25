@@ -1,0 +1,12 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [],
+    "clusteredDbApps": [],
+    "deploymentType": "docker-compose",
+    "directoryPath": "../",
+    "gatewayType": "SpringCloudGateway",
+    "jwtSecretKey": "MWQ5Y2E2MzcyYjkzMjdjZjRkMzAzYmUyZjU5NzIxYzRmODMzMzVhOGIwZjAwZmVhYTRmY2ViMGRmNDI3MDcyZmJhMWZiMGMwMjBkNzQxOTAyMGFiYTBjNjc2YTI1NWM1YWUzYQ==",
+    "monitoring": "no",
+    "serviceDiscoveryType": "eureka"
+  }
+}

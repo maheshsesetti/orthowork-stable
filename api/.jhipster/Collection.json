@@ -1,0 +1,83 @@
+{
+  "applications": ["orthoworks", "api"],
+  "changelogDate": "20220118105815",
+  "clientRootFolder": "api",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "collection",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "required"]
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "required"]
+    },
+    {
+      "fieldName": "count",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["min", "max"],
+      "fieldValidateRulesMax": "10000",
+      "fieldValidateRulesMin": "1"
+    },
+    {
+      "fieldName": "collectionType",
+      "fieldType": "CollectionType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "IMAGE (Image),AUDIO (Audio),IMAGEAUDIO (Image and Audio),VIDEO (Video)"
+    },
+    {
+      "fieldName": "auctionType",
+      "fieldType": "AuctionType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "FLAT (Flat rate),ENGLISH (English Auction)"
+    },
+    {
+      "fieldName": "minRange",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "maxRange",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "currency",
+      "fieldType": "Currency",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "INR (Rupee),USD (US Dollar),ETH (Ether)"
+    },
+    {
+      "fieldName": "owner",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "api",
+  "name": "Collection",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "feature",
+      "otherEntityRelationshipName": "collection",
+      "relationshipName": "features",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "art",
+      "otherEntityRelationshipName": "collection",
+      "ownerSide": false,
+      "relationshipName": "art",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

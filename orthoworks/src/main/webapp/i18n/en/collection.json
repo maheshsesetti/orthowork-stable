@@ -1,0 +1,37 @@
+{
+  "orthoworksApp": {
+    "collection": {
+      "home": {
+        "title": "Collections",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Collection",
+        "createVIPNFTLabel": "VIP NFTs",
+        "createEventTicketLabel":"Event Ticket",
+        "createDiscountsLabel":"Discounts",
+        "editLabel": "Edit a Collection",
+        "notFound": "No Collections found"
+      },
+      "created": "A new Collection is created with identifier {{ param }}",
+      "updated": "A Collection is updated with identifier {{ param }}",
+      "deleted": "A Collection is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Collection {{ id }}?"
+      },
+      "detail": {
+        "title": "Collection"
+      },
+      "id": "ID",
+      "name": "Name",
+      "title": "Title",
+      "count": "Count",
+      "collectionType": "Collection Type",
+      "auctionType": "Auction Type",
+      "minRange": "Min Range",
+      "maxRange": "Max Range",
+      "currency": "Currency",
+      "owner": "Owner",
+      "features": "Features",
+      "art": "Art"
+    }
+  }
+}

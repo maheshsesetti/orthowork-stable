@@ -1,0 +1,51 @@
+{
+  "name": "BrandCategory",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "sortOrder",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dateAdded",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateModified",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "brandCategory",
+      "otherEntityRelationshipName": "brandCategory",
+      "relationshipName": "parent"
+    },
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "brand",
+      "otherEntityRelationshipName": "category",
+      "relationshipName": "brand",
+      "otherEntityField": "title",
+      "ownerSide": true
+    }
+  ],
+  "entityTableName": "brand_category",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["orthoworks", "common"],
+  "microserviceName": "common",
+  "clientRootFolder": "common",
+  "databaseType": "sql",
+  "changelogDate": "20220118110114"
+}

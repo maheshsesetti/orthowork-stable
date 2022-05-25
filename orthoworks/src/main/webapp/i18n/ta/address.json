@@ -1,0 +1,29 @@
+{
+  "orthoworksApp": {
+    "address": {
+      "home": {
+        "title": "Addresses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Address-ஐ உருவாக்கு",
+        "createOrEditLabel": "Address -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Addresses found"
+      },
+      "created": "Address புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Address மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Address நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Address {{ id }}?"
+      },
+      "detail": {
+        "title": "Address"
+      },
+      "id": "ID",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "postcode": "Postcode",
+      "country": "Country",
+      "customer": "Customer"
+    }
+  }
+}

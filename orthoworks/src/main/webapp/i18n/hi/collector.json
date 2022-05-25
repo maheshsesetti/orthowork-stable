@@ -1,0 +1,32 @@
+{
+  "orthoworksApp": {
+    "collector": {
+      "home": {
+        "title": "Collectors",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Collector बनाएँ",
+        "createOrEditLabel": "Collector बनाएँ या संपादित करें",
+        "notFound": "No Collectors found"
+      },
+      "created": "एक नया Collector [identifier: {{ param }}] तैयार है",
+      "updated": "एक Collector [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Collector [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Collector [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Collector"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country"
+    }
+  }
+}

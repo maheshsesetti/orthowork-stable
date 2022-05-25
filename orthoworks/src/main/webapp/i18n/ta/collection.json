@@ -1,0 +1,37 @@
+{
+  "orthoworksApp": {
+    "collection": {
+      "home": {
+        "title": "Collections",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Collection-ஐ உருவாக்கு",
+        "createVIPNFTLabel": "VIP NFTகள்",
+        "createEventTicketLabel":"Event டிக்கெட்",
+        "createDiscountsLabel":"Discount",
+        "editLabel": "Collection -ஐ மாற்று",
+        "notFound": "No Collections found"
+      },
+      "created": "Collection புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Collection மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Collection நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Collection {{ id }}?"
+      },
+      "detail": {
+        "title": "Collection"
+      },
+      "id": "ID",
+      "name": "Name",
+      "title": "Title",
+      "count": "Count",
+      "collectionType": "Collection Type",
+      "auctionType": "Auction Type",
+      "minRange": "Min Range",
+      "maxRange": "Max Range",
+      "currency": "Currency",
+      "owner": "Owner",
+      "features": "Features",
+      "art": "Art"
+    }
+  }
+}

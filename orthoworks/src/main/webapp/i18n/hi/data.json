@@ -1,0 +1,26 @@
+{
+  "orthoworksApp": {
+    "data": {
+      "home": {
+        "title": "Data",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Data बनाएँ",
+        "createOrEditLabel": "Data बनाएँ या संपादित करें",
+        "notFound": "No Data found"
+      },
+      "created": "एक नया Data [identifier: {{ param }}] तैयार है",
+      "updated": "एक Data [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Data [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Data [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Data"
+      },
+      "id": "ID",
+      "name": "Name",
+      "file": "File",
+      "transaction": "Transaction"
+    }
+  }
+}

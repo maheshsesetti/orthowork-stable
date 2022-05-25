@@ -1,0 +1,46 @@
+#collection-heading {
+    .btn {
+        height: fit-content;
+        justify-self: stretch;
+        align-self: center;
+    }.me-2.btn {
+        height: 15rem;
+        width: 10.5rem;
+        margin-right: 1.5rem !important;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(248, 240, 171);
+        color: #000;
+    }
+    .me-2.btn.vip-nft {
+        height: 15rem;
+        width: 10.5rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(218, 160, 54);
+        color: #fff;
+    }
+    .me-2.btn.event-ticket {
+        height: 15rem;
+        width: 10.5rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(66, 240, 66);
+        color: #fff;
+    }
+    .me-2.btn.discount {
+        height: 15rem;
+        width: 10.5rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(52, 52, 146);
+        color: #fff;
+    }
+}
+.btn {
+    margin-right: 1rem;
+}

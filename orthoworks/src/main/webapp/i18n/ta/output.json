@@ -1,0 +1,26 @@
+{
+  "orthoworksApp": {
+    "output": {
+      "home": {
+        "title": "Outputs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Output-ஐ உருவாக்கு",
+        "createOrEditLabel": "Output -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Outputs found"
+      },
+      "created": "Output புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Output மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Output நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Output {{ id }}?"
+      },
+      "detail": {
+        "title": "Output"
+      },
+      "id": "ID",
+      "date": "Date",
+      "result": "Result",
+      "transaction": "Transaction"
+    }
+  }
+}

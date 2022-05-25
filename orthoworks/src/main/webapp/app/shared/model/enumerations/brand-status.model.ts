@@ -1,0 +1,7 @@
+export enum BrandStatus {
+  AVAILABLE = 'AVAILABLE',
+
+  RESTRICTED = 'RESTRICTED',
+
+  DISABLED = 'DISABLED',
+}

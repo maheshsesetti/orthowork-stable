@@ -1,0 +1,11 @@
+{
+  "orthoworksApp": {
+    "CollectionType": {
+      "null": "",
+      "IMAGE": "Image",
+      "AUDIO": "Audio",
+      "IMAGEAUDIO": "Image and Audio",
+      "VIDEO": "Video"
+    }
+  }
+}

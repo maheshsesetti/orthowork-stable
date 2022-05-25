@@ -1,0 +1,26 @@
+{
+  "orthoworksApp": {
+    "output": {
+      "home": {
+        "title": "Outputs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Output बनाएँ",
+        "createOrEditLabel": "Output बनाएँ या संपादित करें",
+        "notFound": "No Outputs found"
+      },
+      "created": "एक नया Output [identifier: {{ param }}] तैयार है",
+      "updated": "एक Output [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Output [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Output [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Output"
+      },
+      "id": "ID",
+      "date": "Date",
+      "result": "Result",
+      "transaction": "Transaction"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.sidebar {
+    min-width: 300px;
+    max-width: 300px;
+    background:#383c3d;
+    color: #fff;
+    margin-left: -250px;
+    margin-top: 1.5rem;
+    transition: all 0.5s;
+  }
+  
+  .sidebar.is-open {
+    margin-left: 0;
+    transition: 0.5s;
+  }
+  
+  .sidebar-header {
+    min-height: 5rem;
+    background: #009cd8;
+  }
+  
+  .sidebar-header h3 {
+    color: #fff;
+    padding: 1em;
+  }
+  
+  .sidebar ul p {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .menu-open {
+    background: #fff;
+    .nav-link {
+      color:#009cd8;
+    }
+  }
+  
+  .nav-link {
+    margin-top: 1px;
+    color: #fff;
+  }
+  
+  .nav-link:hover {
+    color: #fff
+  }
+
+  .nav-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+  }
+  
+  .nav-item:hover {
+    color: #fff;
+    background: darken(#009cd8, 10%);
+  }
+  
+  .items-menu {
+    color: #fff;
+    background: #383c3d;
+  }
+  
+  li a.dropdown-toggle::after {
+    display: inline-flex;
+    position: relative;
+    top: 10%;
+  }
+  
+  .sidebar-header > span {
+    position: relative;
+    float: right;
+    margin: 0.5em;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+  }
+  .side-menu {
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+    .list-unstyled {
+      margin-top: 2rem;
+    }
+  }
+  
+  .side-menu::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .side-menu::-webkit-scrollbar-thumb {
+    background: #009cd8;
+    border-radius: 3px;
+  }
+  
+  .side-menu::-webkit-scrollbar-thumb:hover {
+    background: #009cd8;
+  }

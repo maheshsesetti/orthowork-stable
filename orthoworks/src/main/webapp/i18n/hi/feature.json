@@ -1,0 +1,26 @@
+{
+  "orthoworksApp": {
+    "feature": {
+      "home": {
+        "title": "Features",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Feature बनाएँ",
+        "createOrEditLabel": "Feature बनाएँ या संपादित करें",
+        "notFound": "No Features found"
+      },
+      "created": "एक नया Feature [identifier: {{ param }}] तैयार है",
+      "updated": "एक Feature [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Feature [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Feature [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Feature"
+      },
+      "id": "ID",
+      "name": "Name",
+      "mandatory": "Mandatory",
+      "collection": "Collection"
+    }
+  }
+}

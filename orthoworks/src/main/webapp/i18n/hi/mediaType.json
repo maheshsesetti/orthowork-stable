@@ -1,0 +1,10 @@
+{
+  "orthoworksApp": {
+    "AssetType": {
+      "null": "",
+      "IMAGE": "Image",
+      "VIDEO": "Video",
+      "AUDIO": "Audio"
+    }
+  }
+}

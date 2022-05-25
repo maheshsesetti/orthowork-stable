@@ -1,0 +1,9 @@
+{
+  "orthoworksApp": {
+    "AuctionType": {
+      "null": "",
+      "FLAT": "Flat rate",
+      "ENGLISH": "English Auction"
+    }
+  }
+}

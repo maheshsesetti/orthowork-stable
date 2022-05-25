@@ -1,0 +1,29 @@
+{
+  "orthoworksApp": {
+    "address": {
+      "home": {
+        "title": "Addresses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Address बनाएँ",
+        "createOrEditLabel": "Address बनाएँ या संपादित करें",
+        "notFound": "No Addresses found"
+      },
+      "created": "एक नया Address [identifier: {{ param }}] तैयार है",
+      "updated": "एक Address [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Address [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Address [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Address"
+      },
+      "id": "ID",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "postcode": "Postcode",
+      "country": "Country",
+      "customer": "Customer"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "orthoworksApp": {
+    "artist": {
+      "home": {
+        "title": "Artists",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Artist-ஐ உருவாக்கு",
+        "createOrEditLabel": "Artist -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Artists found"
+      },
+      "created": "Artist புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Artist மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Artist நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Artist {{ id }}?"
+      },
+      "detail": {
+        "title": "Artist"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country"
+    }
+  }
+}

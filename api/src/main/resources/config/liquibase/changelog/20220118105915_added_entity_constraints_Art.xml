@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Art.
+    -->
+    <changeSet id="20220118105915-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="art_id"
+                                 baseTableName="rel_art__collection"
+                                 constraintName="fk_rel_art__collection__art_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="art"/>
+
+        <addForeignKeyConstraint baseColumnNames="collection_id"
+                                 baseTableName="rel_art__collection"
+                                 constraintName="fk_rel_art__collection__collection_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="collection"/>
+    </changeSet>
+</databaseChangeLog>

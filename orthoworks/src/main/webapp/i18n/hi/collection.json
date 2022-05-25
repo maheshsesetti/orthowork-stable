@@ -1,0 +1,37 @@
+{
+  "orthoworksApp": {
+    "collection": {
+      "home": {
+        "title": "Collections",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Collection बनाएँ",
+        "createVIPNFTLabel": "VIP NFT बनाएँ",
+        "createEventTicketLabel":"Event टिकट",
+        "createDiscountsLabel":"Discount",
+        "editLabel": "Collection संपादित करें",
+        "notFound": "No Collections found"
+      },
+      "created": "एक नया Collection [identifier: {{ param }}] तैयार है",
+      "updated": "एक Collection [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Collection [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Collection [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Collection"
+      },
+      "id": "ID",
+      "name": "Name",
+      "title": "Title",
+      "count": "Count",
+      "collectionType": "Collection Type",
+      "auctionType": "Auction Type",
+      "minRange": "Min Range",
+      "maxRange": "Max Range",
+      "currency": "Currency",
+      "owner": "Owner",
+      "features": "Features",
+      "art": "Art"
+    }
+  }
+}

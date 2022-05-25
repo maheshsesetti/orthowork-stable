@@ -1,0 +1,49 @@
+{
+  "applications": ["orthoworks", "common"],
+  "changelogDate": "20220118110815",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "brand_category",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "sortOrder",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dateAdded",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateModified",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "BrandCategory",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "brandCategory",
+      "otherEntityRelationshipName": "brandCategory",
+      "relationshipName": "parent",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "brand",
+      "otherEntityRelationshipName": "category",
+      "ownerSide": true,
+      "relationshipName": "brand",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

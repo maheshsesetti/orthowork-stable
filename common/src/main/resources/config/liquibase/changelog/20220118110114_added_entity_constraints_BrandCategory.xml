@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity BrandCategory.
+    -->
+    <changeSet id="20220118110114-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="parent_id"
+                                 baseTableName="brand_category"
+                                 constraintName="fk_brand_category__parent_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="brand_category"/>
+
+        <addForeignKeyConstraint baseColumnNames="brand_category_id"
+                                 baseTableName="rel_brand_category__brand"
+                                 constraintName="fk_rel_brand_category__brand__brand_category_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="brand_category"/>
+
+        <addForeignKeyConstraint baseColumnNames="brand_id"
+                                 baseTableName="rel_brand_category__brand"
+                                 constraintName="fk_rel_brand_category__brand__brand_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="brand"/>
+    </changeSet>
+</databaseChangeLog>

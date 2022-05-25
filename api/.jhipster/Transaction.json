@@ -1,0 +1,55 @@
+{
+  "applications": ["orthoworks", "api"],
+  "changelogDate": "20220118105615",
+  "clientRootFolder": "api",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "transaction",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "TransactionStatus",
+      "fieldValues": "DRAFT (Draft),SUBMITTED (Submitted),STARTED (Started),IN_PROGRESS (In Progress),SUCCESSFUL (Successful),FAILED (Failed)"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "api",
+  "name": "Transaction",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "data",
+      "otherEntityRelationshipName": "transaction",
+      "relationshipName": "data",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "collection",
+      "otherEntityRelationshipName": "transaction",
+      "relationshipName": "collection",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "output",
+      "otherEntityRelationshipName": "transaction",
+      "ownerSide": false,
+      "relationshipName": "result",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

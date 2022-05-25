@@ -1,0 +1,29 @@
+{
+  "orthoworksApp": {
+    "notification": {
+      "home": {
+        "title": "Notifications",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Notification बनाएँ",
+        "createOrEditLabel": "Notification बनाएँ या संपादित करें",
+        "notFound": "No Notifications found"
+      },
+      "created": "एक नया Notification [identifier: {{ param }}] तैयार है",
+      "updated": "एक Notification [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Notification [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Notification [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Notification"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "sentDate": "Sent Date",
+      "format": "Format",
+      "userId": "User Id",
+      "brandId": "Brand Id"
+    }
+  }
+}

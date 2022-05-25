@@ -1,0 +1,30 @@
+{
+  "orthoworksApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Invoice बनाएँ",
+        "createOrEditLabel": "Invoice बनाएँ या संपादित करें",
+        "notFound": "No Invoices found"
+      },
+      "created": "एक नया Invoice [identifier: {{ param }}] तैयार है",
+      "updated": "एक Invoice [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Invoice [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Invoice [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "code": "Code",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount"
+    }
+  }
+}

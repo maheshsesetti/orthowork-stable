@@ -1,0 +1,26 @@
+{
+  "orthoworksApp": {
+    "feature": {
+      "home": {
+        "title": "Features",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Feature-ஐ உருவாக்கு",
+        "createOrEditLabel": "Feature -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Features found"
+      },
+      "created": "Feature புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Feature மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Feature நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Feature {{ id }}?"
+      },
+      "detail": {
+        "title": "Feature"
+      },
+      "id": "ID",
+      "name": "Name",
+      "mandatory": "Mandatory",
+      "collection": "Collection"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "orthoworksApp": {
+    "artist": {
+      "home": {
+        "title": "Artists",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Artist",
+        "createOrEditLabel": "Créer ou éditer un Artist",
+        "notFound": "Aucun Artist trouvé"
+      },
+      "created": "Un nouveau Artist a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Artist avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Artist avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Artist {{ id }} ?"
+      },
+      "detail": {
+        "title": "Artist"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country"
+    }
+  }
+}

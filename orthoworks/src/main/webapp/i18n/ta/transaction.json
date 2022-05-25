@@ -1,0 +1,29 @@
+{
+  "orthoworksApp": {
+    "transaction": {
+      "home": {
+        "title": "Transactions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Transaction-ஐ உருவாக்கு",
+        "createOrEditLabel": "Transaction -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Transactions found"
+      },
+      "created": "Transaction புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Transaction மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Transaction நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Transaction {{ id }}?"
+      },
+      "detail": {
+        "title": "Transaction"
+      },
+      "id": "ID",
+      "title": "Title",
+      "status": "Status",
+      "date": "Date",
+      "data": "Data",
+      "collection": "Collection",
+      "result": "Result"
+    }
+  }
+}

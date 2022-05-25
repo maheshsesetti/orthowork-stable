@@ -1,0 +1,29 @@
+{
+  "orthoworksApp": {
+    "brandCategory": {
+      "home": {
+        "title": "Brand Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Brand Category-ஐ உருவாக்கு",
+        "createOrEditLabel": "Brand Category -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Brand Categories found"
+      },
+      "created": "Brand Category புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Brand Category மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Brand Category நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Brand Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Brand Category"
+      },
+      "id": "ID",
+      "description": "Description",
+      "sortOrder": "Sort Order",
+      "dateAdded": "Date Added",
+      "dateModified": "Date Modified",
+      "parent": "Parent",
+      "brand": "Brand"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "orthoworksApp": {
+    "collector": {
+      "home": {
+        "title": "Collectors",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Collector",
+        "createOrEditLabel": "Crear o editar Collector",
+        "notFound": "Ningún Collectors encontrado"
+      },
+      "created": "Un nuevo Collector ha sido creado con el identificador {{ param }}",
+      "updated": "Un Collector ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Collector ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Collector {{ id }}?"
+      },
+      "detail": {
+        "title": "Collector"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country"
+    }
+  }
+}

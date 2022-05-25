@@ -1,0 +1,26 @@
+{
+  "orthoworksApp": {
+    "output": {
+      "home": {
+        "title": "Outputs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Output",
+        "createOrEditLabel": "Create or edit a Output",
+        "notFound": "No Outputs found"
+      },
+      "created": "A new Output is created with identifier {{ param }}",
+      "updated": "A Output is updated with identifier {{ param }}",
+      "deleted": "A Output is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Output {{ id }}?"
+      },
+      "detail": {
+        "title": "Output"
+      },
+      "id": "ID",
+      "date": "Date",
+      "result": "Result",
+      "transaction": "Transaction"
+    }
+  }
+}

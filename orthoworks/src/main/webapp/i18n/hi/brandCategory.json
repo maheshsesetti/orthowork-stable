@@ -1,0 +1,29 @@
+{
+  "orthoworksApp": {
+    "brandCategory": {
+      "home": {
+        "title": "BrandCategories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Brand Category बनाएँ",
+        "createOrEditLabel": "Brand Category बनाएँ या संपादित करें",
+        "notFound": "No Brand Categories found"
+      },
+      "created": "एक नया Brand Category [identifier: {{ param }}] तैयार है",
+      "updated": "एक Brand Category [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Brand Category [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Brand Category [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Brand Category"
+      },
+      "id": "ID",
+      "description": "Description",
+      "sortOrder": "Sort Order",
+      "dateAdded": "Date Added",
+      "dateModified": "Date Modified",
+      "parent": "Parent",
+      "brand": "Brand"
+    }
+  }
+}
